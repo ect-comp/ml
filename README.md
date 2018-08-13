@@ -3,6 +3,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 
 ## Jupyter Notebooks
 * Regressão Linear Simples, http://bit.ly/2KBTkUf 
+* Regressão Linear Múltipla, http://bit.ly/2nBOcGx
 
 ## Links Interessantes 
 * Tutorias de python e machine learning, https://github.com/cs-ufrn 
