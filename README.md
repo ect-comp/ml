@@ -14,6 +14,24 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * Super Data Science, https://www.superdatascience.com/machine-learning/ 
 * Scikit-learn, http://scikit-learn.org/ 
 
-# Links de Dados 
+## Links de Dados 
 * Dados abertos UFRN, http://dados.ufrn.br/organization/ufrn
 * Kaggle data sets, https://www.kaggle.com/datasets
+
+## Cursos Onlines 
+
+* Machine Learning - Udemy, https://www.udemy.com/machinelearning  
+* Machine Learning - Google, https://developers.google.com/machine-learning/crash-course/
+* Machine Learning - Coursera, https://www.coursera.org/learn/machine-learning
+* Elements of AI, https://course.elementsofai.com/ 
+
+## Bibliografia 
+
+* GÉRON; **Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems**. O’REILLY, 2017.
+* MITCHELL; **Machine Learning**, Publisher: McGraw-Hill Science/Engineering/Math, 1997.
+* NEGNEVITSKY; **Artificial Intelligence: A Guide to Intelligent Systems**, Second Edition, Publisher Addison Wesley.
+* HAYKIN; **Neural Networks and Learning Machines** (3rd Edition), Publisher: Pearson. 
+* RUSSELL, STUART; NORVIG, PETER; **Inteligência Artificial**, 3. edição, Prentice Hall.
+* BRAGA; CARVALHO; e LUDERMIR;  **Redes neurais artificiais: teoria e aplicações**, 2007
+
+
