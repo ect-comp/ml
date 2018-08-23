@@ -22,7 +22,8 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 
 ## Cursos Onlines 
 
-* Machine Learning - Udemy, https://www.udemy.com/machinelearning  
+* Machine Learning - Udemy, https://www.udemy.com/machinelearning
+* Deep Learning - Udemy, https://www.udemy.com/deep-learning-com-python-az-curso-completo 
 * Machine Learning - Google, https://developers.google.com/machine-learning/crash-course/
 * Machine Learning - Coursera, https://www.coursera.org/learn/machine-learning
 * Elements of AI, https://course.elementsofai.com/ 
