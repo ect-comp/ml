@@ -7,8 +7,10 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * MultiLayer Perceptron, http://bit.ly/2MI9kZQ 
 
 ## Links Interessantes 
+* Excelentes tutoriais sobre aprendizado de máquina, https://matheusfacure.github.io/tutoriais/ 
 * Tutorias de python e machine learning, https://github.com/cs-ufrn 
-* MLP para fins didáticos em C++, https://github.com/orivaldosantana/mlp
+* MLP para fins didáticos em C++, https://github.com/orivaldosantana/mlp 
+* colah's blog, http://colah.github.io/ 
 
 ## Referências 
 
