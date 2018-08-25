@@ -11,7 +11,8 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * Tutorias de python e machine learning, https://github.com/cs-ufrn 
 * MLP para fins didáticos em C++, https://github.com/orivaldosantana/mlp 
 * colah's blog, http://colah.github.io/ 
-* Deep Learning Book, http://www.deeplearningbook.org/
+* Deep Learning Book, http://www.deeplearningbook.org/ 
+* Página web com lições sobre TensorFlow, https://learningtensorflow.com/ 
 
 ## Referências 
 
