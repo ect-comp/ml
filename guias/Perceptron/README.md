@@ -62,7 +62,7 @@ def train(self, entrada, rotulo):
 
 A seguir segue a descrição do processo de uso do perceptron para realizar uma classificação binária com duas entradas, os dados de treino e o resultado esperado estão na imagem a seguir.
 
-![alt Porta AND](https://raw.githubusercontent.com/ect-info/ml/tree/master/guias/Perceptron/and.jpg)
+![alt Porta AND](https://raw.githubusercontent.com/ect-info/ml/master/guias/Perceptron/and.jpg)
 
 ```python
 # Cria o array de entradas
