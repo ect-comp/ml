@@ -35,6 +35,10 @@ Nesta atividade será levado em conta:
   * Os dados devem ser obtidos de um sensor de cor de arduino e uma base de dados no formato csv deve ser gerada; 
   * O código de reconhecimento de cores deve estar embarcado no arduíno ou em um raspbarry.
   
+* Róbtica 
+  * Coletar dados de sensor utlrassom de um robô com rodas para o comportamento de desviar de obstáculos ou seguir obstáculos; 
+  * Implementar a etapa de resposta da rede (fase *forward*) no Arduino.  
+  
 * Reconhecedor de gestos simplificado;
   * Coletar dados de gestos formando os números de 0 a 9; 
   * A base de dados deve conter pelo menos 20 gestos de cada número; 
