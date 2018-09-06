@@ -4,6 +4,8 @@ As atividades devem ser entregues no github do aluno em um repositório com o no
 
 ## Unidade I
 
+Prazo máximo para entrega da atividades desta unidade: 19/09/2018. 
+
 ### Regressão Linear 
 Estimar o sálario de um funcionário de uma determinada empresa baseado em seus anos de experiência. 
 
@@ -31,20 +33,20 @@ Nesta atividade será levado em conta:
 * A taxa de acerto do classificador. 
 
 #### Sugestões de atividades: 
-* Detectar e classificar cores; 
+* Sensor de Cores: 
   * Os dados devem ser obtidos de um sensor de cor de arduino e uma base de dados no formato csv deve ser gerada; 
-  * O código de reconhecimento de cores deve estar embarcado no arduíno ou em um raspbarry.
+  * O código de reconhecimento de cores deve estar embarcado no arduíno ou em um raspberry pi.
   
-* Róbtica 
+* Róbtica: 
   * Coletar dados de sensor utlrassom de um robô com rodas para o comportamento de desviar de obstáculos ou seguir obstáculos; 
   * Implementar a etapa de resposta da rede (fase *forward*) no Arduino.  
   
-* Reconhecedor de gestos simplificado;
+* Reconhecedor simplificado de gestos:
   * Coletar dados de gestos formando os números de 0 a 9; 
   * A base de dados deve conter pelo menos 20 gestos de cada número; 
-  * O reconhecimento pode ser feito no computador ou em um raspbarry. 
+  * O reconhecimento pode ser feito no computador ou em um raspberry pi. 
 
-* Mineração de dados; 
+* Mineração de dados: 
   * Estimar a tendência de conlusão do curso de graduação; 
   * Considerando os dados do desempenho do aluno no primeiro semestre e a informação de conclusão ou desistência do curso gerar uma base de dados para classificação da tendência de finalização do curso; 
   * O desempenho pode ser medido pela média final dos componentes curriculares cursados; 
