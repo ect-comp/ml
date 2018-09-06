@@ -42,6 +42,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * MITCHELL; **Machine Learning**, Publisher: McGraw-Hill Science/Engineering/Math, 1997.
 * NEGNEVITSKY; **Artificial Intelligence: A Guide to Intelligent Systems**, Second Edition, Publisher Addison Wesley.
 * HAYKIN; **Neural Networks and Learning Machines** (3rd Edition), Publisher: Pearson. 
+* BISHOP; **Pattern Recognition and Machine Learning**, Springer, 2006. 
 * RUSSELL, STUART; NORVIG, PETER; **Inteligência Artificial**, 3. edição, Prentice Hall.
 * BRAGA; CARVALHO; e LUDERMIR;  **Redes neurais artificiais: teoria e aplicações**, 2007
 
