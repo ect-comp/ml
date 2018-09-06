@@ -1,6 +1,6 @@
 # Atividades Avaliativas 
 
-As atividades devem ser entregues no github do aluno em um repositório com o nome "ect2702-ml". Um diretório deve ser criado para cada atividade com os códigos fontes que reselvem a atividade. O nome do diterório será especificado na descrição de cada atividade.  
+As atividades devem ser entregues no github do aluno em um repositório com o nome "ect2702-ml". Um diretório deve ser criado para cada atividade com os códigos fontes que reselvem a atividade. O nome do diterório será especificado na descrição de cada atividade. As atividades podem ser feitas em grupo, mas cada estudante deve desenvolver seu próprio código. 
 
 ## Unidade I
 
@@ -20,6 +20,33 @@ Implementar um perceptron e testar com uma base de dados simples. Sugestão de p
 * Manipulação básica de vetores: http://bit.ly/2w6xgfd;
 * Roteiro para implementação: https://github.com/ect-info/ml/tree/master/guias/Perceptron, contribuição de Richardson (https://github.com/vanluwin);
 * Nome da pasta: perceptron; 
+
+### Classificação com MLP ou SVM 
+
+Escolher um problema, gerar a base de dados e implementar um código para a classíficação destes dados. 
+
+Nesta atividade será levado em conta: 
+* A complexidade da base de dados desenvolvida ou obtida; 
+* O esforço de implementação do classificador; 
+* A taxa de acerto do classificador. 
+
+#### Sugestões de atividades: 
+* Detectar e classificar cores; 
+  * Os dados devem ser obtidos de um sensor de cor de arduino e uma base de dados no formato csv deve ser gerada; 
+  * O código de reconhecimento de cores deve estar embarcado no arduíno ou em um raspbarry.
+  
+* Reconhecedor de gestos simplificado;
+  * Coletar dados de gestos formando os números de 0 a 9; 
+  * A base de dados deve conter pelo menos 20 gestos de cada número; 
+  * O reconhecimento pode ser feito no computador ou em um raspbarry. 
+
+* Mineração de dados; 
+  * Estimar a tendência de conlusão do curso de graduação; 
+  * Considerando os dados do desempenho do aluno no primeiro semestre e a informação de conclusão ou desistência do curso gerar uma base de dados para classificação da tendência de finalização do curso; 
+  * O desempenho pode ser medido pela média final dos componentes curriculares cursados; 
+  * Essa base de dados é uma sugestão inicial. 
+  
+* Nome da pasta: classificacao-mlp ou classificacao-svm 
 
 
 
