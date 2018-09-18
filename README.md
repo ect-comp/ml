@@ -5,6 +5,8 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * Regressão Linear Simples, http://bit.ly/2KBTkUf 
 * Regressão Linear Múltipla, http://bit.ly/2nBOcGx
 * MultiLayer Perceptron, http://bit.ly/2MI9kZQ 
+* SVM Linear, http://bit.ly/2Ov7vgh
+* SVM RBF, http://bit.ly/2OBRHsk
 
 ## Links Interessantes 
 * Excelentes tutoriais sobre aprendizado de máquina, https://matheusfacure.github.io/tutoriais/ 
