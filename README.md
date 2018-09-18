@@ -15,6 +15,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * colah's blog, http://colah.github.io/ 
 * Deep Learning Book, http://www.deeplearningbook.org/ 
 * Página web com lições sobre TensorFlow, https://learningtensorflow.com/ 
+* Github sobre K Means Clustering de Siraj Raval, https://github.com/llSourcell/k_means_clustering/blob/master/kmeans.py.ipynb
 
 ## Referências 
 
