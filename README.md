@@ -7,6 +7,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * MultiLayer Perceptron, http://bit.ly/2MI9kZQ 
 * SVM Linear, http://bit.ly/2Ov7vgh
 * SVM RBF, http://bit.ly/2OBRHsk
+* K-Means, http://bit.ly/2zqY8JI 
 
 ## Links Interessantes 
 * Excelentes tutoriais sobre aprendizado de máquina, https://matheusfacure.github.io/tutoriais/ 
