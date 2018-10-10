@@ -9,6 +9,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * SVM RBF, http://bit.ly/2OBRHsk
 * K-Means, http://bit.ly/2zqY8JI 
 * SOM, http://bit.ly/2Ps3xWA 
+* SOM - Numbers, http://bit.ly/2ysYJcb
 
 ## Links Interessantes 
 * Excelentes tutoriais sobre aprendizado de máquina, https://matheusfacure.github.io/tutoriais/ 
