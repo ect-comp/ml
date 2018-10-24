@@ -55,4 +55,16 @@ Nesta atividade será levado em conta:
 * Nome da pasta: classificacao-mlp ou classificacao-svm 
 
 
+## Unidade II
+
+Prazo máximo para entrega da atividades desta unidade: 12/11/2018. 
+
+### Clusterização com _k-menas_ 
+
+Usar a base de dados sobre a opinão política da turma para gerar automáticamente dois clusters. 
+* Gerar dois vetores de características com o perfil dos dois principais candidatos a presidência;
+* Colocar um rótulo em cada centroíde encontrado baseado no perfil dos candidatos a presidência; 
+* Apresentar um perfil novo (um colega que estava fora dos dados de treinamento), identificar qual dos centroides é o mais próximo e consequentimente o candidato a presidência com maior afinidade ao novo colega. 
+
+
 
