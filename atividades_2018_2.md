@@ -67,4 +67,12 @@ Usar a base de dados sobre a opinão política da turma para gerar automáticame
 * Apresentar um perfil novo (um colega que estava fora dos dados de treinamento), identificar qual dos centroides é o mais próximo e consequentimente o candidato a presidência com maior afinidade ao novo colega. 
 
 
+## Unidade III 
+
+### Temas para o trabalho final 
+
+#### Construir um sistema para gerenciar a alocação de horários dos professores. 
+
+O professor insere suas disciplinas e seus possíveis horários, cada sugestão de horário tem um nível de prioridade sendo 1 a priodiade máxima, valores maiores que 1 têm prioridades menores progressivamente. O sistema deverá minimizar o valor da alocação geral dos professores. A função objetivo deve somar a nota de todas disciplinas evitando colocar disciplinas em alocações não sugeridas pelo professor. 
+
 
