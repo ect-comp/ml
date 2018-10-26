@@ -77,5 +77,7 @@ O professor insere suas disciplinas e seus possíveis horários, cada sugestão 
 
 #### API Web para Machine Laerning 
 
+#### Visualização 2D de Perfis 
+
 
 
