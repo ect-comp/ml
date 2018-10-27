@@ -59,7 +59,7 @@ Nesta atividade será levado em conta:
 
 Prazo máximo para entrega da atividades desta unidade: 12/11/2018. 
 
-### Clusterização com _k-menas_ 
+### Clusterização com _k-means_ 
 
 Usar a base de dados sobre a opinão política da turma para gerar automáticamente dois clusters. 
 * Gerar dois vetores de características com o perfil dos dois principais candidatos a presidência;
