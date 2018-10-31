@@ -66,16 +66,15 @@ Usar a base de dados sobre a opinão política da turma para gerar automáticame
 * Colocar um rótulo em cada centroíde encontrado baseado no perfil dos candidatos a presidência; 
 * Apresentar um perfil novo (um colega que estava fora dos dados de treinamento), identificar qual dos centroides é o mais próximo e consequentimente o candidato a presidência com maior afinidade ao novo colega. 
 
-### Processamento de Áudio 
+### _Self-Organizing Map_
 
-### Classificação de Cores com Arduíno 
+#### Processamento de Áudio 
 
-* Usar a rede SOM
+#### Classificação de Cores com Arduíno 
 
-### Aprendizado de comportamentos com Robôs/Arduíno 
+#### Aprendizado de comportamentos com Robôs/Arduíno 
 
-* Usar a rede SOM 
-
+### Aloritmos Genéticos 
 
 ## Unidade III 
 
