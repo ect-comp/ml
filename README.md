@@ -12,6 +12,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * SOM - Numbers, http://bit.ly/2ysYJcb
 
 ## Links Interessantes 
+* Interagindo e visualizando uma linha de regressão linear, https://s3.amazonaws.com/codecademy-content/programs/data-science-path/line-fitter/line-fitter.html
 * Excelentes tutoriais sobre aprendizado de máquina, https://matheusfacure.github.io/tutoriais/ 
 * Tutorias de python e machine learning, https://github.com/cs-ufrn 
 * MLP para fins didáticos em C++, https://github.com/orivaldosantana/mlp 
