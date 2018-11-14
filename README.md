@@ -9,7 +9,8 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * SVM RBF, http://bit.ly/2OBRHsk
 * K-Means, http://bit.ly/2zqY8JI 
 * SOM, http://bit.ly/2Ps3xWA 
-* SOM - Numbers, http://bit.ly/2ysYJcb
+* SOM - Numbers, http://bit.ly/2ysYJcb 
+* Deep Learning MNIST, http://bit.ly/2z8VCqY 
 
 ## Links Interessantes 
 * Interagindo e visualizando uma linha de regressão linear, https://s3.amazonaws.com/codecademy-content/programs/data-science-path/line-fitter/line-fitter.html
