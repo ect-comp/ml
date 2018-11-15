@@ -23,6 +23,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * Github sobre K Means Clustering de Siraj Raval, https://github.com/llSourcell/k_means_clustering/blob/master/kmeans.py.ipynb 
 * Brilliant, https://brilliant.org/courses/machine-learning/?tour=true 
 * Geeks for Geeks, https://www.geeksforgeeks.org/genetic-algorithms/
+*  Deep Natural Language Processing course offered in Hilary Term 2017 at the University of Oxford, https://github.com/oxford-cs-deepnlp-2017/lectures
 
 ## Referências 
 
