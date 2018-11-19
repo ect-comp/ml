@@ -11,6 +11,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * SOM, http://bit.ly/2Ps3xWA 
 * SOM - Numbers, http://bit.ly/2ysYJcb 
 * Deep Learning MNIST, http://bit.ly/2z8VCqY 
+* Deep Learning MNIST - Rede Convolucional, http://bit.ly/2A6PfUD
 
 ## Links Interessantes 
 * Interagindo e visualizando uma linha de regressão linear, https://s3.amazonaws.com/codecademy-content/programs/data-science-path/line-fitter/line-fitter.html
