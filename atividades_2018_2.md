@@ -66,7 +66,11 @@ Usar a base de dados sobre a opinão política da turma para gerar automáticame
 * Colocar um rótulo em cada centroíde encontrado baseado no perfil dos candidatos a presidência; 
 * Apresentar um perfil novo (um colega que estava fora dos dados de treinamento), identificar qual dos centroides é o mais próximo e consequentimente o candidato a presidência com maior afinidade ao novo colega. 
 
+* Nome da pasta: k-means
+
 ### _Self-Organizing Map_
+
+* Nome da pasta: SOM
 
 #### Processamento de Áudio 
 
@@ -75,6 +79,7 @@ Usar a base de dados sobre a opinão política da turma para gerar automáticame
 #### Aprendizado de comportamentos com Robôs/Arduíno 
 
 ### Aloritmos Genéticos 
+* Nome da pasta: AG
 
 ## Unidade III 
 
