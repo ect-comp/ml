@@ -12,6 +12,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * SOM - Numbers, http://bit.ly/2ysYJcb 
 * Deep Learning MNIST, http://bit.ly/2z8VCqY 
 * Deep Learning MNIST - Rede Convolucional, http://bit.ly/2A6PfUD
+* Clonagem de Comportamento em carros autônomos, http://bit.ly/2QHMSlF 
 
 ## Links Interessantes 
 * Interagindo e visualizando uma linha de regressão linear, https://s3.amazonaws.com/codecademy-content/programs/data-science-path/line-fitter/line-fitter.html
@@ -45,6 +46,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * Machine Learning - Google, https://developers.google.com/machine-learning/crash-course/
 * Machine Learning - Coursera, https://www.coursera.org/learn/machine-learning
 * Elements of AI, https://course.elementsofai.com/ 
+* The Complete Self-Driving Car Course - Applied Deep Learning - Udemy, https://www.udemy.com/applied-deep-learningtm-the-complete-self-driving-car-course 
 
 ## Exercícios
 * Implementação do perceptron, https://github.com/ect-info/ml/tree/master/guias/Perceptron 
