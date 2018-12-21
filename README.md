@@ -47,6 +47,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * Machine Learning - Coursera, https://www.coursera.org/learn/machine-learning
 * Elements of AI, https://course.elementsofai.com/ 
 * The Complete Self-Driving Car Course - Applied Deep Learning - Udemy, https://www.udemy.com/applied-deep-learningtm-the-complete-self-driving-car-course 
+* Introduction to Python, https://www.datacamp.com/courses/intro-to-python-for-data-science
 
 ## Exercícios
 * Implementação do perceptron, https://github.com/ect-info/ml/tree/master/guias/Perceptron 
