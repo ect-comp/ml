@@ -52,6 +52,9 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 ## Exercícios
 * Implementação do perceptron, https://github.com/ect-info/ml/tree/master/guias/Perceptron 
 
+## Canal de Comunicação 
+* Para compartilhamento de conhecimento entre os estudantes: https://discord.gg/jzKN8kx 
+
 ## Bibliografia 
 
 * GÉRON; **Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems**. O’REILLY, 2017.
