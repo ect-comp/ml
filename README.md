@@ -14,6 +14,9 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * Deep Learning MNIST - Rede Convolucional, http://bit.ly/2A6PfUD
 * Clonagem de Comportamento em carros autônomos, http://bit.ly/2QHMSlF 
 
+## Slides de Aula
+* Introdução, https://docs.google.com/presentation/d/1Xo6pl8EECIBfA97d-EH0-DQSwM7YtZQ0WM2w85zs5ZI/edit?usp=sharing 
+
 ## Links Interessantes 
 * Interagindo e visualizando uma linha de regressão linear, https://s3.amazonaws.com/codecademy-content/programs/data-science-path/line-fitter/line-fitter.html
 * Excelentes tutoriais sobre aprendizado de máquina, https://matheusfacure.github.io/tutoriais/ 
