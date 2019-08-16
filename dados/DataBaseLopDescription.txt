@@ -1,0 +1,13 @@
+qsemana == Quantidade de dias diferentes que houve submissão
+submeteu == quantidade de questões submetidas pelo aluno por semana
+subListaLab == quantidade de submissões na lista de lab a cada 2 semanas
+subListaExer == quantidade de submissões na lista de exer a cada 2 semanas
+subDistintasLab == quantidade de dias em que submeteu a cada 2 semanas nas listas de lab
+subDistintasExer == quantidade de dias em que submeteu a cada 2 semanas nas listas de exer
+diferentesLabSemanas == quantidade de questões diferentes submetidas nas listas de lab a cada 2 semanas
+diferentesExerSemanas == quantidade de questões diferentes submetidas nas listas de lab a cada 2 semanas
+situacao == indica se o aluno foi aprovado (1) ou reprovado (0)
+qsub == quantidade de submissões das listas correspondente (seja lab ou exercicio)
+qsubp == quantidade de questões submetidas para a prova 1 (L1,L2,L3) ou da prova 2 (L4,L5)
+totalsub == total de submissões feitas pelo aluno
+igualACem == quantidade de submissões em que o aluno acertou 100%, seja nas L123 ou L45
