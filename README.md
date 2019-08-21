@@ -19,6 +19,8 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * Regressão Linear I, https://docs.google.com/presentation/d/1qR5GZ4ROHnccPOhPlj2NBC5cALZzrF5dIUwF6GslbAY/edit?usp=sharing
 * Regressão Linear II, https://docs.google.com/presentation/d/1ksbUXVsP08Vrm5mPW7etzpUSaRL3bN1lRDQEpWhcgSU/edit?usp=sharing
 * MLP, https://docs.google.com/presentation/d/1NMgV4Jh-T7PhK_bLV3J7KUse8vN_PkU5rGKLbfxQ_cs/edit?usp=sharing 
+* SVM, https://docs.google.com/presentation/d/1GOUeqNpZ3CRtTUaksxMwZ_rl6EBt350g-emA4FKPwnc/edit?usp=sharing 
+
 ## Começando com Python 
 
 * Material produzido pelo grupo de estudos em Ciência de Dados, https://github.com/Natalnet/GCiD/tree/master/Codes/Basic%20Module 
