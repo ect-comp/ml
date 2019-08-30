@@ -26,6 +26,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * Material produzido pelo grupo de estudos em Ciência de Dados, https://github.com/Natalnet/GCiD/tree/master/Codes/Basic%20Module 
 
 ## Links Interessantes 
+* Curso de Introdução a Deep Learning com PyTorch, https://classroom.udacity.com/courses/ud188 
 * Interagindo e visualizando uma linha de regressão linear, https://s3.amazonaws.com/codecademy-content/programs/data-science-path/line-fitter/line-fitter.html
 * Excelentes tutoriais sobre aprendizado de máquina, https://matheusfacure.github.io/tutoriais/ 
 * Tutorias de python e machine learning, https://github.com/cs-ufrn 
