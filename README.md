@@ -53,6 +53,8 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 
 ## Cursos Onlines 
 
+* Introdução a _Machine Learning_, Udacity, https://classroom.udacity.com/courses/ud120
+* Introdução a Deep Learning com PyTorch, https://classroom.udacity.com/courses/ud188 
 * Machine Learning - Udemy, https://www.udemy.com/machinelearning
 * Deep Learning - Udemy, https://www.udemy.com/deep-learning-com-python-az-curso-completo 
 * Machine Learning - Google, https://developers.google.com/machine-learning/crash-course/
