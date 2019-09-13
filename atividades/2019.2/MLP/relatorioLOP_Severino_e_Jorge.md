@@ -15,7 +15,7 @@ Por fim, para realizar o experimento, selecionamos os dados que foram extraídos
 
 ### Trechos principais:
 
-```	
+```py	
 #Selecionando quantidade de parâmetros de entrada, primeira camada escondida
 classifier.add(Dense( activation = 'relu', input_dim = 6, units = 20, kernel_initializer = 'uniform'))
 
@@ -25,7 +25,7 @@ classifier.add(Dense( activation = 'relu', units = 20, kernel_initializer = 'uni
 #Camada de saída
 classifier.add(Dense( activation = 'sigmoid', units = 1, kernel_initializer = 'uniform'))”
 ```
-```
+```py
 #Ajuste do treinamento
 classifier.fit(X_train, y_train, batch_size = 5, epochs = 60)
 ```
