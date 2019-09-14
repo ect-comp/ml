@@ -11,6 +11,9 @@ que possa predizer o estado de uma pessoa(levantado ou sentado).</p>
 
 <p align="justify">Primeiramente nós gravamos um vídeo em que um dos integrantes do grupo se posicionava nos dois estados(sentado e levantado).
 Depois, transformamos esse vídeo em várias imagens no formato .jpg, de onde extraímos uma base de dados com a ajuda da API Pose estimation.<p>
+ 
+ ![](new.gif)
+<img style="float:left;" src="https://github.com/migueloten/relatorio_svm/blob/master/database/new.gif" width="250" height="250">
 
 #### Códigos<br>
 
