@@ -10,6 +10,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * K-Means, http://bit.ly/2zqY8JI 
 * SOM, http://bit.ly/2Ps3xWA 
 * SOM - Numbers, http://bit.ly/2ysYJcb 
+* SOM - Notas LoP e do primeiro semestre - http://bit.ly/2m6c8UI 
 * Deep Learning MNIST, http://bit.ly/2z8VCqY 
 * Deep Learning MNIST - Rede Convolucional, http://bit.ly/2A6PfUD
 * Clonagem de Comportamento em carros autônomos, http://bit.ly/2QHMSlF 
