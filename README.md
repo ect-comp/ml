@@ -48,6 +48,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * Livro Deep Learning, https://www.deeplearningbook.org/
 * Super Data Science, https://www.superdatascience.com/machine-learning/ 
 * Scikit-learn, http://scikit-learn.org/ 
+* Super Data Science - Convolutional Neural Networks,  https://www.superdatascience.com/blogs/the-ultimate-guide-to-convolutional-neural-networks-cnn
 * A Tutorial on Support Vector Machines for Pattern Recognition, https://www.di.ens.fr/~mallat/papiers/svmtutorial.pdf
 
 ## Links de Dados 
