@@ -43,6 +43,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 
 ## Referências 
 
+* Livro Neural Networks and Deep Learning, http://neuralnetworksanddeeplearning.com/ 
 * Livro Hands-On Machine Learning,  https://github.com/ageron/handson-ml 
 * Livro Deep Learning, https://www.deeplearningbook.org/
 * Super Data Science, https://www.superdatascience.com/machine-learning/ 
