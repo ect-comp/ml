@@ -22,6 +22,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * MLP, https://docs.google.com/presentation/d/1NMgV4Jh-T7PhK_bLV3J7KUse8vN_PkU5rGKLbfxQ_cs/edit?usp=sharing 
 * SVM, https://docs.google.com/presentation/d/1GOUeqNpZ3CRtTUaksxMwZ_rl6EBt350g-emA4FKPwnc/edit?usp=sharing 
 * SOM, https://docs.google.com/presentation/d/1PV1jTA0cJ1PdoGM1TY0I0wQtEP8aINI1MSJXpgpxgCQ/edit?usp=sharing 
+* CNN, https://docs.google.com/presentation/d/19U5ITVHzKa-kdX4L5l3D6WBTai04o0EaHygz-jkzwZc/edit?usp=sharing 
 
 ## Começando com Python 
 
