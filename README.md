@@ -13,6 +13,7 @@ Conteúdo de apoio sobre Machine Learning da disciplina de tópicos avançados e
 * SOM - Notas LoP e do primeiro semestre - http://bit.ly/2m6c8UI 
 * Deep Learning MNIST, http://bit.ly/2z8VCqY 
 * Deep Learning MNIST - Rede Convolucional, http://bit.ly/2A6PfUD
+* Introdução a NLP - http://bit.ly/2po0h6i 
 * Clonagem de Comportamento em carros autônomos, http://bit.ly/2QHMSlF 
 
 ## Slides de Aula
