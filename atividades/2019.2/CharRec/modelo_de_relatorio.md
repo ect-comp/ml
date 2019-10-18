@@ -21,3 +21,7 @@
 * Descrever em detalhes os tipos de testes executados. 
 * Descrever os parâmentros avaliados. 
 * Explicar os resultados. 
+### Base de dados 
+* Dígitos escritos a mão,  https://drive.google.com/open?id=1MQ799fvtrs6pXNI3aDB2otEpdg9N-E7H
+* Caracteres escritos a mão, https://drive.google.com/open?id=1B4fy3Nqy9AoEnC2MuuPaCstcrJ-FZstW
+ 
