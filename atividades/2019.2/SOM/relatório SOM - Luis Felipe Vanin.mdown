@@ -1,0 +1,214 @@
+# Utilização de uma rede SOM(self organized-map) para prever resultados educacionais.
+
+## Introdução
+<p align = "justify">
+O relatório foi desenvolvido pelo discente Luis felipe Vanin Martins. O docente envolvido é Orivaldo de Vieira Santana.
+
+<p align = "justify">
+Com os métodos de machine learning conhecidos e estudados na matéria de Tópicos Avançados de Informática, é interessante pensar em maneiras de usufruir de tais métodos para otimizar o desempenho acadêmico de discentes. Uma das maneira para alcançar o objetivo citado é buscar prever o resultado final de cada aluno, pois assim poderemos prestar mais auxílios a aqueles alunos que apresentam um quadro negativo perante o modelo de machine learning e dessa maneira conseguindo um maior aproveitamento de uma turma.
+
+<p align = "justify">
+Para solucionar a problemática supracitada devemos utilizar um banco de dados  dos resultados dos alunos em diversas avaliações semanais de várias turmas da matéria de Lógica de Programação(LOP) da UFRN e assim tentar prever o quadro dos envolvidos nessa matéria. O banco de dados foi fornecido por Orivaldo Vieira de Santana. 
+
+<p align = "justify">
+Com o banco de dados dos alunos podemos treinar uma rede neural não supervisionada do tipo SOM (Self Organized-map) para identificar padrões entre o desempenho dos alunos gerando categorias. Caso o modelo seja bem sucedido haverá categorias que indicam casos de possíveis reprovações, logo, se um aluno é encaixado pela rede neural a partir de suas notas semanais em uma categoria a qual existem muitos alunos que reprovaram quer dizer que ele tem a chance de ter o mesmo resultado final que os demais já que possui notas similares.
+
+</p>
+
+<br>
+
+## Metodologia 
+
+<p align = "justify">
+A primeira etapa do desenvolvimento do trabalho em questão é o entendimento do modelo de rede neural utilizado que no caso é a rede SOM.    Conhecido como Self Organized-map ou mapas de Kohonen consiste em um tipo não supervisionado de machine learning, ou seja, não necessita de respostas já predeterminadas para suas entradas, que gera um sistema de mapa para seus valores de entrada de tal maneira de agrupar mais próximos o termos que a rede julga possuir mais similaridades. Cada região de agrupamento é dado como um neurônio e todos os termos que se encontram nesse neurônio possuem características semelhantes entre si. 
+</p>
+
+<br>
+
+  <center>
+    <img src = "https://miro.medium.com/max/1016/0*HV0Qm0sHs_ogxL12">
+
+<h5>(fig 1 - podemos ver os "x"s representam os inputs da rede que são encaminhados )</h5>
+</center>
+  
+ <br>
+  
+<p align = "justify">
+Levando essa visão para a base de dados LOP temos duas situações esperadas, a de aprovado e a de reprovado(existem mais três outras situações para o aluno, porém trataremos somente com essa duas para facilitar a análise), em que, alunos que tendem a ter uma situação X ao final se agrupam em uma mesma região.
+
+<p align = "justify">
+Para implementar o código da SOM é necessário separar quais serão os parâmetros de análise para os alunos e redefinir a situação dos mesmo de forma numérica e binária(como apresentado na demonstração abaixo).
+  
+</p>
+
+<br>
+
+~~~ python
+url = "https://raw.githubusercontent.com/ect-info/ml/master/dados/lop_submissao_semana.csv"
+
+dataset = pd.read_csv(url)
+
+dataset = dataset.replace("APROVADO", 1)
+dataset = dataset.replace("APROVADO POR NOTA", 1)
+dataset = dataset.replace("REPROVADO", 0)
+dataset = dataset.replace("REPROVADO POR NOTA", 0)
+dataset = dataset.replace("REPROVADO POR MÉDIA E POR FALTAS", 0)
+~~~
+
+
+<center>
+  <h5><b> OBS.: </b>podemos visualizar acima que todas as possíveis situações finais dos alunos foram trocados por valores de 0 ou 1, em que todos que se relacionam com a reprovação do componente foram mudados para "0" e relacionado a aprovação para "1".</h5>
+</center>
+
+<br>
+
+~~~python
+X = dataset.iloc[ : , 5 : -13 ].values
+~~~
+<center>
+  <h5><b> OBS.: </b>Aqui temos a separação dos parâmetros que serão utilizados, eles serão posteriormente explicados.</h5>
+</center>
+<br>
+
+<p align = "justify">
+E então para a executação do treino da rede neural se utilizará a seguinte linha de código, a qual somente X deve ser aquele selecionado para o treino, como esperado de um  modelo não-supervisionado, e em seguida o número de interações do treino.
+  
+~~~python
+som.random_weights_init(X) #seleção dos pesos
+som.train_random(data = X, num_iteration = 2400) #inicialização do trinamento.
+~~~
+
+<center>
+<h5><b> OBS.: </b>Explicarei posteriormente a implementação desses métodos.</h5>
+</center>
+<br>
+<center>
+    <img src ="http://slideplayer.com/slide/7364408/24/images/1/Self+Organized+Map+%28SOM%29.jpg" width = "400">
+</center>
+<center>
+<h5>(fig 2 - outra representação da rede SOM.)</h5>
+</center>
+
+<p align = "justify">
+  Vale salientar que antes da implementação acima houve um processo para tornar mais homogêneos os valores da base de dados, ou seja, transforma todos os valores do banco em uma escala de 0 a 1 usando a função do “.fit_tranform” da biblioteca sklearn.
+</p>
+
+~~~python
+#importação do objeto necessário.
+from sklearn.preprocessing import MinMaxScaler
+
+sc = MinMaxScaler(feature_range = (0, 1))
+X = sc.fit_transform(X)
+~~~
+
+<br>
+
+<p align = "justify">
+Retornando ao nosso problema relacionado a previsão do resultado final, temos a intenção de conseguir visualizar a futura situação do aluno com o mínimo de parâmetros e de maneira mais rápida. É necessário utilizar o mínimo de parâmetros possíveis, pois caso se use muitas semanas(parâmtros das nossas questões) a fase de treino pode entrar em um caso de overfit . Quando se trata de conseguir os resultados mais rápido se dialoga com o fato de prever a futura situação do discente com a finalidade de tentar reverter essa possível situação do aluno quando se é tem o quadro negativo, logo, vamos buscar aproveitar dos atributos que são adquiridos até as primeiras semanas, pois caso contrário a previsão pode vir de maneira tardia, ou seja, gerando um quadro irreversível.   
+</p>
+
+<br>
+
+## Códigos 
+
+<p align = "justify">
+O código gerado é elaborado na linguagem de programação Python, aproveitando de suas bibliotecas que dão suporte ao machine learning. As bibliotecas empregadas serão o numpy, pandas, sklearn entre outras ferramentas. A seguir a importação do banco de dados utilizado.
+</p>
+
+~~~ python
+url = "https://raw.githubusercontent.com/ect-info/ml/master/dados/lop_submissao_semana.csv"
+dataframe = pd.read_csv(url)
+~~~
+<p align = "justify">
+O trecho de código mais importante de todo o processo é aquele que implementa o algorítmo de SOM, mostrado abaixo, sendo “XdaRede” e “YdaRede” as dimensões x e y da rede, isto é, a quantidade de neurônios/regiões de agrupamento de dados. A variável “features” é a quantidade de parâmetros que serão passados para o modelo SOM com input de cada linha(que representa um aluno em nosso caso) que, no teste que estamos realizando, é como se fosse passado 10 notas semanais de cada aluno para o sistema usar de parâmetro.
+</p>
+
+~~~python
+from minisom import MiniSom
+
+XdaRede = 5
+YdaRede = 5
+features = 10
+
+#som = MiniSom(x = XdaRede, y = YdaRede, input_len = col, sigma = 1.0, learning_rate = 0.4)
+
+som = MiniSom(x = XdaRede, y = YdaRede, input_len = features, sigma = 1.0, learning_rate = 0.5)
+
+pesos = som.get_weights()
+
+
+som.random_weights_init(X)
+som.train_random(data = X, num_iteration = 2400)
+~~~
+<p align = "justify">
+O código apresentado acima representa a construção da rede SOM desejada a qual definimos alguns parâmetros no momento de sua montagem. As variáveis "XdaRede" e "YdaRede" são responsáveis por definir o tamanho da rede no objeto <b>MiniSom</b>, delimitando a quantidade de neurônios utilizados que no caso foi de 5x5(25 neurônio, cada um com suas categorias). Já a variável "feature" representa a quanidade de parâmetros de cada input(aluno) que, como foi dito, é as notas semanais dos alunos.</p>
+
+<p align = "justify"> Há também outros detalhes que são interessantes se antentar no código mostrado, como a utilização da função ".get_weights()" e ".random_weights_init()" que tem a tarefa de 'setar' os pesos iniciais de cada neurônio.
+</p>
+
+<br>
+
+
+## Experimentos 
+
+<p align = "justify">
+Para examinar nossos experimentos é necessário debater o por quê dos parâmetros escolhidos para modelar a rede SOM. Na linha de código mostado na aba de "metodologia" que recorta o banco de dados para uma variável denominada "X" a qual será usada na forma de input do sistema, temos que as colunas selecionadas como parâmetros para os alunos partem da coluna 5 e vão até a 16, isto é, escolhemos 10 atributos de um total de 28. A escolha das colunas citadas foi feita de maneira pensada. A primeira coluna, assim como as três últimas, foram retiradas, pois não representam valores numéricos e sim dados pessoais dos alunos ou sua situação final. O restante das colunas iniciais removidas foram retiradas devido ao fato de provavelmente serem de períodos a qual não se ocorreu nenhuma avaliação ou não houve aula, ou seja, só se tem registro de zeros o que não ajuda a rede neural em nada. Por fim, fizemos a retirada de valores numéricos da semana 14(coluna 15) até a última semana, devido ao fato de querermos os resultado da rede sendo expostos o mais rápido possível para que não haja um diagnóstico tardio da situação do discente, então por isso buscamos usar os dados referentes ao mais próximo do inicio do semestre.
+<p align = "justify">
+Agora iremos analisar os resultados obtidos em cada neurônio. Tal resultado será exposto em uma matriz 5 por 5 sendo cada ítem dessa matriz um neurônio. Sabemos que cada neurônio receberá um número determinado de alunos dependedo de suas similaridades, na extração dos resultados dessa modelo de machine learning usaremos dois tipos de analise, um que mostra a quantidade de alunos que se encaminhou para cada região(neurônio) e a taxa de aprovação de cada cluster.
+</p>
+
+~~~python
+cont = 0
+MContAp = np.zeros((XdaRede,YdaRede))
+
+MContT = np.zeros((XdaRede,YdaRede))
+for x in X: 
+  pos = som.winner(x)
+  if (Y[cont] == 1): #Aprovado 
+    MContAp[pos] += 1
+  MContT[pos] += 1
+  cont= cont+1
+  
+#arredondamento para inteiro 
+MContTA = np.rint((MContAp/MContT)*100)
+
+print("Total(alunos):")
+print(MContT)
+
+
+print("Taxa de aprovação(%):")
+#porcentagem arredondada para inteiro
+print(MContTA)
+~~~
+
+~~~python
+Total(alunos):
+[[ 31.  55.  15.  30.  39.]
+ [ 59.  21.  44.  25.  17.]
+ [ 43.  42.  23.  21.  25.]
+ [198.  12.  45.  14.  12.]
+ [ 27.  49.  28.  26.  47.]]
+Taxa de aprovação(%):
+[[ 97.  89.  73.  93.  97.]
+ [ 76.  81.  82.  88. 100.]
+ [ 53.  57.  83.  95.  88.]
+ [ 32.  42.  73.  93.  58.]
+ [ 37.  47.  86.  81.  83.]]
+~~~
+
+<center>
+<h5>(fig 3 - codigo da chamada da matriz de neurônio e a respectiva saida)</h5>
+</center>
+
+<br>
+
+<p align = "justify">
+Com isso obtemos a taxa de aprovação que cada neurônio representa. Podemos notar que existem clusters com taxas similares de aprovação, isso quer dizer que alunos com notas distintas que se agrupam em grupos diferentes podem ter o mesmo resultado final com um mesma taxa.
+</p>
+
+
+
+
+<p align = "justify">
+Utilizando esse modelo de rede neural poderemos prever com uma certa precisão o resultado final de um novo aluno inserido, basta observar para qual categoria o aluno será incorporado. Caso o doscente tenha notas semanais que o faça entrar na região do neurônio de coordenada (1, 4) quer dizer que o mesmo não deve se preocupar muito com seu resultado final, pois em nosso teste 100% dos componentes agrupados nesse cluster foram aprovados na disciplina. Em contra partida ao neurônio (1, 4), caso o indivíduo seja agrupado no cluster de coordenada (3, 0) é um sínal de que o mesmo deve se preocupar um pouco mais com seus estudos, pois somente 32% dos alunos com essa confuguração são aprovados.
+</p>
