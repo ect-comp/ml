@@ -4,20 +4,56 @@
 
 A base de dados utilizada para esse trabalho foi extraida de 222 imagens que passaram por um programa para gerar o arquivo csv. Esse programa
 apresenta várias imagens a um servidor que contém o detector de posições de juntas PoseNET que retorna 17 pontos de coordenadas X e Y para cada
-imagem apresentada. Gerando esse vetor de dados das 222 imagens apresentadas e adicionando a classificação de cada imagens (se perna levantada, esqueda ou direita, ou braço, esquerdo ou direito, levantado) formamos a base de dados que será utilizada para o projeto. O objetivo é gerar com a rede Self-Organized Maps (SOM) um mapa de característas que indique em que neurônios estão situados cada posição classificada no arquivo csv apresentado a rede. Após isso apresentar um vetor de "imagens" (já processadas pelo poseNET) e gerar um vetor de ativação dos neurônios. 
+imagem apresentada. Gerando esse vetor de dados das 222 imagens apresentadas e adicionando a classificação de cada imagens (se perna levantada, esqueda ou direita, ou braço, esquerdo ou direito, levantado) formamos a base de dados que será utilizada para o projeto. O objetivo é gerar com a rede Self-Organized Maps (SOM) um mapa de característas que indique em que neurônios estão situados cada posição classificada no arquivo csv apresentado a rede. Após isso apresentar um vetor de "imagens" (já processadas pelo poseNET) e gerar um vetor de ativação dos neurônios.
 
 ## Metodologia 
 
-O modelo de machine learning (ML) usado para a classificação das letras foi o MLP. Para entender melhor o funcionamento desse modelo é impressindível aprender sobre a ML da qual ele é derivado, o Perceptron. Esse funciona de uma maneira semelhante a um neurônio, onde os dentritos recebem o estimulos elétrico, esses estímulos são processados pelo núcleo do neurônio e depois transmitidos através dos axônios para os dentritos de outra célula nervosa. A sinapse que é a passagem dessa informação de uma célula para outra por meio dos neurotransmissores é regulada pela quantidade desses neurotransmissores presentes em cada terminação dos neurônios. Tal funcionamento é abstraido para o Perceptron em forma de pesos (neurotransmissores) que regulam unidades (neurônios) que podem possuir diferentes funções de ativação. O Multilayer Perceptron difere da Perceptron quanto ao número de camadas existentes. No Perceptron existem apenas 2 camadas, onde uma é de entrada e outra é de saída. Já na MLP além das camadas de entrada e saída existem camadas escondidas que podem tem números variados de unidades. A MLP usada para esse trabalho foi configurada com 4 camadas, sendo a de entrada uma camada de convolução2D que passa 30 filtros de 5 por 5 numa matriz de 28 por 32 por 1 e ativação 'relu'. A segunda camada também de revolução de 15 filtros de 3 por 3 e ativação 'relu'. A terceira camada e a única camada escondida utilizada para esse trabalho foi composta de 500 neurônios com ativação 'relu'. Por fim a última camada com 26 camadas e ativação 'softmax'.
+O modelo de machine learning utilizado para a clusterização dos dados de submissões foi a SOM, self-organizing map. Consiste de uma rede neural não supervisionada que é responsável por criar um mapa dimensionado que descretiza a base de dados e a organiza de forma adequada. A SOM conta com um treinamento a partir de valores de entrada escritos na base de dados. Após o processo de treinamento, ele passará por uma fase de mapeamento, a qual será responsável por classificar de forma automática a base de dados em neurônios e organizando esses neurônios. O tamanho configurado foi de 16 por 16.
+Ja SVM é um modelo de machine learning que consegue aplicar uma tranformação no espaço de dados dessa forma conseguindo separar dados que aparentemente não aparentam ser não lineramente separáveis, mas que em algum plano do espaço se tornam linearmente separáveis. Ela utiliza funções de Kernel, em SVMs não lineares, para calcular hiperplanos ótimos que consigam separar da melhor forma os dados fornecidos no processo de treinamento. 
 
 ## Códigos 
 
-* Mostrar trechos de códigos mais importantes e explicações.  
+```python
+ # encontra o vencedor 
+x = X_train[1,:]
+pos = som.winner(x)
 
-## Experimentos 
+# matriz de zeros para contador de aprovados 
+MCont1 = np.zeros((tamanhoXdaRede,tamanhoYdaRede))
+# matriz de zeros para contador de aprovados 
+MCont2 = np.zeros((tamanhoXdaRede,tamanhoYdaRede))
+# matriz de zeros para contador de aprovados 
+MCont3 = np.zeros((tamanhoXdaRede,tamanhoYdaRede))
+# matriz de zeros para contador de aprovados 
+MCont4 = np.zeros((tamanhoXdaRede,tamanhoYdaRede))
 
-* Descrever em detalhes os tipos de testes executados. 
-* Descrever os parâmentros avaliados. 
-* Explicar os resultados. 
+# matriz de zeros para o contador de reprovados 
+MContT = np.zeros((tamanhoXdaRede,tamanhoYdaRede))
+cont = 0; 
+for x in X_train: 
+  pos = som.winner(x)
+  if (Y_train[cont] == 'braco_direito'):
+    MCont1[pos] += 1
+  elif (Y_train[cont] == 'braco_esquerdo'):
+    MCont2[pos] += 1
+  elif (Y_train[cont] == 'perna_direita'):
+    MCont3[pos] += 1
+  elif (Y_train[cont] == 'perna_esquerda'):
+    MCont4[pos] += 1
+  MContT[pos] += 1
+  cont= cont+1
+```
+criando as matrizes separado cada classe
+```python
+cont = 1;
+for i in range(len(MContT)):
+  for j in range(len(MContT)):
+    plt.subplot(tamanhoXdaRede,tamanhoYdaRede,cont)
+    cont=cont+1
+    sizes = [MCont1[i][j], MCont2[i][j], MCont3[i][j], MCont4[i][j]]
+    plt.pie(sizes)
+plt.show()
+```
+criando uma matriz de gráficos de pizza para ver a separação de cada classe
 
  
