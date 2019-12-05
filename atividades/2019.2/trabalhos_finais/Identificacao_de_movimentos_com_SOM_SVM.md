@@ -56,4 +56,5 @@ plt.show()
 ```
 criando uma matriz de gráficos de pizza para ver a separação de cada classe
 
+projeto disponivel em https://colab.research.google.com/drive/1OqV-T_qhFxDsS2gVX58L3dhi6N8YDAYh
  
