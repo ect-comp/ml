@@ -1,5 +1,5 @@
 eh_diabetico,eh_hipertenso,fez_quimioterapia,eh_asmatico,eh_fumante,temperatura,frequencia_respiratoria,pulsacao,tosse,diarreia,falta_apetite,dificuldade_sabores,dificuldade_odores,dores_garganta,dores_corpo,nariz_congestionado,fadiga,nausea
-1,,0,0,0,36.3,17,70,0,,,,,,,,,
+1,0,0,0,0,36.3,17,70,0,0,0,0,0,0,0,0,0,0
 0,1,0,0,1,35.7,0,85,0,0,0,0,0,0,0,0,0,0
 1,1,0,1,1,39,17,95,1,1,1,1,1,1,1,1,1,1
 0,0,0,0,0,36,15,80,0,0,0,0,0,0,0,0,0,0
