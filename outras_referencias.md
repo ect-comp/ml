@@ -24,3 +24,7 @@
 ## Outros 
 * [Brilliant](https://brilliant.org/courses/machine-learning/?tour=true) 
 * [Super Data Science](https://www.superdatascience.com/machine-learning/)  
+
+## Links de Dados 
+* [Dados abertos UFRN](http://dados.ufrn.br/organization/ufrn)
+* [Kaggle data sets](https://www.kaggle.com/datasets) 
