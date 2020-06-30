@@ -24,4 +24,8 @@ Esta página reune cursos relacionados a _Machine Learning_.
 * [Deep Natural Language Processing course offered in Hilary Term 2017 at the University of Oxford](https://github.com/oxford-cs-deepnlp-2017/lectures)
 * [The Complete Self-Driving Car Course - Applied Deep Learning - Udemy](https://www.udemy.com/applied-deep-learningtm-the-complete-self-driving-car-course) 
 
- 
+## Links de Dados 
+* [Dados abertos UFRN](http://dados.ufrn.br/organization/ufrn)
+* [Kaggle data sets](https://www.kaggle.com/datasets) 
+
+
