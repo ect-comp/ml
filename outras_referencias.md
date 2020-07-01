@@ -2,7 +2,8 @@
 # Outras Referências 
 
 ## Blogs e Tutoriais 
-* [Excelentes tutoriais sobre aprendizado de máquina - Matheus Facure](https://matheusfacure.github.io/tutoriais/) 
+* [Excelentes tutoriais sobre aprendizado de máquina - Matheus Facure](https://matheusfacure.github.io/tutoriais/)
+* [Vídeo: Machine Learning: Tutorial prático usando apenas o navegador](https://www.youtube.com/watch?v=JyGGMyR3x5I&feature=youtu.be) 
 * [A Tutorial on Support Vector Machines for Pattern Recognition](https://www.di.ens.fr/~mallat/papiers/svmtutorial.pdf)
 * [Colah's blog](http://colah.github.io/) 
 * [Tutorias de python e machine learning - CS-UFRN](https://github.com/cs-ufrn)  
