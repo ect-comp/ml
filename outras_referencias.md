@@ -18,6 +18,8 @@
 * [Interagindo e visualizando uma linha de regressão linear](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/line-fitter/line-fitter.html)
 * [Scikit-learn](http://scikit-learn.org)  
 
+## Ferramentas 
+
 ## Códigos 
 * [MLP para fins didáticos em C++](https://github.com/orivaldosantana/mlp)  
 * [Github sobre K Means Clustering de Siraj Raval](https://github.com/llSourcell/k_means_clustering/blob/master/kmeans.py.ipynb) 
