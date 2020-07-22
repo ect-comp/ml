@@ -16,9 +16,9 @@
 
 ## Ferramentas 
 * [Interagindo e visualizando uma linha de regressão linear](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/line-fitter/line-fitter.html)
-* [Scikit-learn](http://scikit-learn.org)  
-
-## Ferramentas 
+* [Scikit-learn](http://scikit-learn.org)
+* [Knime - Desenvolvimento de soluções com blocos](https://www.knime.com/software-overview)
+* [Orange - Programação visual](https://orange.biolab.si/) 
 
 ## Códigos 
 * [MLP para fins didáticos em C++](https://github.com/orivaldosantana/mlp)  
