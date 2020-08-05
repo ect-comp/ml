@@ -24,6 +24,8 @@ Esta página reune cursos relacionados a _Machine Learning_.
 * [Deep Natural Language Processing course offered in Hilary Term 2017 at the University of Oxford](https://github.com/oxford-cs-deepnlp-2017/lectures)
 * [The Complete Self-Driving Car Course - Applied Deep Learning - Udemy](https://www.udemy.com/applied-deep-learningtm-the-complete-self-driving-car-course) 
 
+## Introdução a Ciência da Computação 
+* [CC50 - O Curso de Ciência da Computação de  Harvard, no Brasil](https://materiais.estudarfora.org.br/cc50/) 
 
 
 
