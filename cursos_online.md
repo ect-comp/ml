@@ -18,6 +18,10 @@ Esta página reune cursos relacionados a _Machine Learning_.
 * [Data Science: Machine Learning](https://online-learning.harvard.edu/course/data-science-machine-learning) 
 
 ## _Deep Learning_ 
+* Introdução a Deep Learning (Sebastian Raschka / UTFPR):
+  * [Vídeos em português](https://www.youtube.com/playlist?list=PL9At2PVRU0ZqVArhU9QMyI3jSe113_m2-)
+  * [Slides](https://github.com/dalcimar/RC18EE---Intro-to-Deep-Learning) 
+  * [Material original](http://pages.stat.wisc.edu/~sraschka/teaching/) 
 * [Deep Learning - Udemy](https://www.udemy.com/deep-learning-com-python-az-curso-completo) 
 * [Página web com lições sobre TensorFlow](https://learningtensorflow.com/)   
 * [Introdução a Deep Learning com PyTorch](https://classroom.udacity.com/courses/ud188) 
