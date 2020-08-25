@@ -4,6 +4,7 @@
 ## Blogs e Tutoriais 
 * [Excelentes tutoriais sobre aprendizado de máquina - Matheus Facure](https://matheusfacure.github.io/tutoriais/)
 * [Vídeo - Machine Learning: Tutorial prático usando apenas o navegador](https://www.youtube.com/watch?v=JyGGMyR3x5I&feature=youtu.be) 
+* [Acompanhe a expansão do COVID-19 com KNIME](https://hupdata.com/acompanhando-o-covid-19-com-knime/)
 * [A Tutorial on Support Vector Machines for Pattern Recognition](https://www.di.ens.fr/~mallat/papiers/svmtutorial.pdf)
 * [Colah's blog](http://colah.github.io/) 
 * [Tutorias de python e machine learning - CS-UFRN](https://github.com/cs-ufrn)  
@@ -31,3 +32,4 @@
 ## Links de Dados 
 * [Dados abertos UFRN](http://dados.ufrn.br/organization/ufrn)
 * [Kaggle data sets](https://www.kaggle.com/datasets) 
+* [IMDB PT-BR](https://www.kaggle.com/luisfredgs/imdb-ptbr?select=imdb-reviews-pt-br.csv) 
