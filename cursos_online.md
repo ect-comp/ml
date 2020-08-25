@@ -4,6 +4,9 @@ Esta página reune cursos relacionados a _Machine Learning_.
 ## Python 
 *  [Introduction to Python fpr Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science) 
 
+## Ferramentas 
+* [Bootcamp for KNIME Analytics Platform](https://www.udemy.com/course/knime-bootcamp/) 
+
 ## _Machine Learning_ 
 * [Machine Learning - Udemy](https://www.udemy.com/machinelearning)
 * [Introdução a Machine Learning - Udacity](https://classroom.udacity.com/courses/ud120) 
