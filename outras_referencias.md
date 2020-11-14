@@ -16,6 +16,9 @@
 * [Material produzido pelo grupo de estudos em Ciência de Dados - NatalNet](https://github.com/Natalnet/GCiD/tree/master/Codes/Basic%20Module) 
 
 ## Ferramentas 
+* Trabalho Final de Gúbio sobre KNIME, 
+  * [Relatório](https://drive.google.com/file/d/1DE32zJVXBwafsiLwRLNCvs8NJZtWO_iK/view?usp=sharing)
+  * [Exemploes](https://drive.google.com/file/d/1ofXNSfb7i_6-8NNPHY4_Hcrk_wi8nAOC/view?usp=sharing) 
 * [Interagindo e visualizando uma linha de regressão linear](https://s3.amazonaws.com/codecademy-content/programs/data-science-path/line-fitter/line-fitter.html)
 * [Scikit-learn](http://scikit-learn.org)
 * [Knime - Desenvolvimento de soluções com blocos](https://www.knime.com/software-overview)
