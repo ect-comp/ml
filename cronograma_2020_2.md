@@ -11,9 +11,9 @@
 | 04/02 | Sem 3 | Aula 7 | SVM |
 | 09/02 | Sem 4 | Aula 8 | Atividade 2: Previsão de compra de um produto | 
 | 11/02 | Sem 4 | Aula 9 | Deep Learning |
-| 16/02 | Sem 5 | Aula 10 | Atividade 3:  Reconhecimento de dígitos escritos a mão |
+| 16/02 | Sem 5 | Aula 10 | *Carnaval* |
 | 18/02 | Sem 5 | Aula 11 | AM - Não supervisionados | 
-| 23/02 | Sem 6 | Aula 12 | Atividade 4: Perfil de clientes de uma loja |
+| 23/02 | Sem 6 | Aula 12 | Atividade 3:  Reconhecimento de dígitos escritos a mão |
 | 25/02 | Sem 6 | Aula 13 | K-Means |
 | 02/03 | Sem 7 | Aula 14 | Atividade 4: Perfil de clientes de uma loja | 
 | 04/03 | Sem 7 | Aula 15 | SOM |
