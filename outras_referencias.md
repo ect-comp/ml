@@ -4,6 +4,7 @@
 ## Blogs e Tutoriais 
 * [Excelentes tutoriais sobre aprendizado de máquina - Matheus Facure](https://matheusfacure.github.io/tutoriais/)
 * [Vídeo - Machine Learning: Tutorial prático usando apenas o navegador](https://www.youtube.com/watch?v=JyGGMyR3x5I&feature=youtu.be) 
+* [OpenCV Face Recognition - PyImageSearch](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)
 * [Acompanhe a expansão do COVID-19 com KNIME](https://hupdata.com/acompanhando-o-covid-19-com-knime/)
 * [A Tutorial on Support Vector Machines for Pattern Recognition](https://www.di.ens.fr/~mallat/papiers/svmtutorial.pdf)
 * [Colah's blog](http://colah.github.io/) 
