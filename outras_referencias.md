@@ -2,6 +2,9 @@
 # Outras Referências 
 
 ## Blogs e Tutoriais 
+* [Capítulo de Livro: In-Depth: Support Vector Machines](https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html)
+* [Capítulo de Livro: In Depth: Principal Component Analysis](https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html)
+* [Capítulo de Livro: Application: A Face Detection Pipeline](https://jakevdp.github.io/PythonDataScienceHandbook/05.14-image-features.html) 
 * [Excelentes tutoriais sobre aprendizado de máquina - Matheus Facure](https://matheusfacure.github.io/tutoriais/)
 * [Vídeo - Machine Learning: Tutorial prático usando apenas o navegador](https://www.youtube.com/watch?v=JyGGMyR3x5I&feature=youtu.be) 
 * [OpenCV Face Recognition - PyImageSearch](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)
