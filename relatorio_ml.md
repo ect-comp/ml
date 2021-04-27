@@ -23,3 +23,6 @@
 * Descrever em detalhes os tipos de testes executados. 
 * Descrever os parâmentros avaliados. 
 * Explicar os resultados. 
+
+## Conclusão 
+* O trabalho atendeu aos objetivos? 
