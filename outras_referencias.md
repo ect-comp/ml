@@ -41,3 +41,6 @@
 * [Dados abertos UFRN](http://dados.ufrn.br/organization/ufrn)
 * [Kaggle data sets](https://www.kaggle.com/datasets) 
 * [IMDB PT-BR](https://www.kaggle.com/luisfredgs/imdb-ptbr?select=imdb-reviews-pt-br.csv) 
+
+## Demonstrações 
+* [ConvNetJS MNIST demo](https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html)
