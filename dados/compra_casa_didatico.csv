@@ -1,0 +1,11 @@
+Idade,Renda (mil reais),Estado civil,Filhos,Região,Compra
+25,50,Solteiro,0,Sudeste,Não
+32,80,Casado,2,Nordeste,Sim
+40,120,Casado,1,Sudeste,Sim
+50,200,Divorciado,3,Centro-Oeste,Sim
+60,150,Viúvo,0,Sul,Não
+35,60,Solteiro,0,Nordeste,Não
+45,100,Casado,2,Sudeste,Não
+55,180,Divorciado,1,Centro-Oeste,Sim
+28,70,Solteiro,1,Sudeste,Não
+38,90,Casado,2,Nordeste,Não
