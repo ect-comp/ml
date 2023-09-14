@@ -1,21 +1,21 @@
-Nome,Nota do aluno,Sexo,Idade
-Otavio,1,Masculino,18
-Sandra,2,Feminino,19
-Ana,2,Feminino,18
-Francisco,3,Masculino,22
-Rafael,3,Masculino,18
-Maria,4,Feminino,19
-Leda ,4,Feminino,23
-Antonio,5,Masculino,25
-Roberto ,5,Masculino,29
-Ivan,5,Masculino,22
-Carla ,6,Feminino,36
-Luiz,6,Masculino,51
-David,6,Masculino,22
-Edson,6,Masculino,29
-Rachel,6,Feminino,27
-Ângela,7,Feminino,26
-Paulo,7,Masculino,19
-Nicole,7,Feminino,24
-Lika,7,Feminino,22
-Matheus,9,Masculino,25
+Nome,Nota do aluno,Sexo,Idade,Peso,Altura
+Otavio,1,Masculino,18,98,"1,780"
+Sandra,2,Feminino,19,66,"1,680"
+Ana,2,Feminino,18,102,"1,570"
+Francisco,3,Masculino,22,76,"1,590"
+Rafael,3,Masculino,18,90,"1,630"
+Maria,4,Feminino,19,91,"1,780"
+Leda ,4,Feminino,23,72,"1,770"
+Antonio,5,Masculino,25,87,"1,750"
+Roberto ,5,Masculino,29,87,"1,540"
+Ivan,5,Masculino,22,77,"1,880"
+Carla ,6,Feminino,36,102,"1,900"
+Luiz,6,Masculino,51,84,"1,770"
+David,6,Masculino,22,99,"1,760"
+Edson,6,Masculino,29,71,"1,760"
+Rachel,6,Feminino,27,71,"1,800"
+Ângela,7,Feminino,26,80,"1,770"
+Paulo,7,Masculino,19,98,"1,760"
+Nicole,7,Feminino,24,66,"1,550"
+Lika,7,Feminino,22,98,"1,880"
+Matheus,9,Masculino,25,100,"1,900"
