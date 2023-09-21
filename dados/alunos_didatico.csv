@@ -1,0 +1,21 @@
+Nome,Nota do aluno,,Sexo,Idade,Peso,Altura,IMC,Contagem
+Sandra,2,4,Feminino,19,100,1.68,35.4308390022676,Obesidade
+Ana,2,4,Feminino,18,92,1.57,37.3240293723883,Obesidade
+Maria,4,16,Feminino,19,92,1.78,29.0367377856331,Sobrepeso
+Leda ,4,16,Feminino,23,66,1.77,21.0667432730058,Normal
+Carla ,6,36,Feminino,36,84,1.9,23.2686980609418,Normal
+Rachel,6,36,Feminino,27,67,1.8,20.679012345679,Normal
+Ângela,7,49,Feminino,26,66,1.77,21.0667432730058,Normal
+Nicole,7,49,Feminino,24,76,1.55,31.633714880333,Obesidade
+Lika,7,49,Feminino,22,77,1.88,21.7858759619737,Normal
+Otavio,1,1,Masculino,18,66,1.78,20.8307031940412,Normal
+Francisco,3,9,Masculino,22,69,1.59,27.2932241604367,Sobrepeso
+Rafael,3,9,Masculino,18,104,1.63,39.1433625653958,Obesidade
+Antonio,5,25,Masculino,25,93,1.75,30.3673469387755,Obesidade
+Roberto ,5,25,Masculino,29,92,1.54,38.7923764547141,Obesidade
+Ivan,5,25,Masculino,22,85,1.88,24.0493435943866,Normal
+Luiz,6,36,Masculino,51,105,1.77,33.5152733888729,Obesidade
+David,6,36,Masculino,22,91,1.76,29.3775826446281,Sobrepeso
+Edson,6,36,Masculino,29,104,1.76,33.5743801652893,Obesidade
+Paulo,7,49,Masculino,19,81,1.76,26.1492768595041,Sobrepeso
+Matheus,9,81,Masculino,25,87,1.9,24.0997229916898,Normal
