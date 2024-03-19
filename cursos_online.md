@@ -9,6 +9,7 @@ Esta página reune cursos relacionados a _Machine Learning_.
 * [Bootcamp for KNIME Analytics Platform](https://www.udemy.com/course/knime-bootcamp/) 
 
 ## _Machine Learning_ 
+* [Machine Learning with Python and Scikit-Learn – Full Course](https://www.youtube.com/watch?v=hDKCxebp88A)
 * [Machine Learning - Udemy](https://www.udemy.com/machinelearning)
 * [Introdução a Machine Learning - Udacity](https://classroom.udacity.com/courses/ud120) 
 * [Machine Learning - Google](https://developers.google.com/machine-learning/crash-course/)
