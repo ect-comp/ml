@@ -3,6 +3,11 @@
 * Código:
   * [Compra de um produto](https://colab.research.google.com/drive/1gwdc-7YAUDq12wE5TNjuoJ7q1onHET7J?usp=sharing) 
 
+Prática
+* Treinar o modelo SVM linear e o modelo SVM RBF com [base de dados de diabetes](https://raw.githubusercontent.com/ect-info/ml/master/dados/diabetes.csv) 
+* Consultar a documentação https://scikit-learn.org/stable/modules/svm.html#svm 
+* Mais dados https://www.kaggle.com/datasets
+
 Material de apoio: 
 * [Vídeos e Form: SVM](https://docs.google.com/forms/d/e/1FAIpQLSdS3YCo4v5NDzMuHzWKDyX-hb-nf6Pz2XLEM8RXknV6pmjssQ/viewform?usp=sf_link) 
 
@@ -11,3 +16,6 @@ Material complementar:
 * Códigos:
   * [Exempo 1: SVM - compra de um produto](https://colab.research.google.com/drive/1w7Tt9UFngIkEjThnNlYj8Tki6EwVWxeP?usp=sharing)
   * [Exempo 2: SVM - compra de um produto](https://colab.research.google.com/drive/1VYmZBcf2FHmz_gwPRxllxwoy0nTaU8X9?usp=sharing)
+
+
+
