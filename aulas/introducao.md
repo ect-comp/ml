@@ -1,8 +1,13 @@
 # Introdução ao Aprendizado de Máquina 
 * [Slides: Conceitos](https://docs.google.com/presentation/d/1p0ZDtjHuog-ENMHVbMX6LiabMXlTjYIV8t1DA2iBqIY/edit?usp=sharing)
 
-Prátrica 
+Prátrica 1
 * Abrir o site https://teachablemachine.withgoogle.com/. Criar grupos. Treinar um modelo para reconhecer pessoas pelo rosto. 
+
+Prática 2
+* Conhecer um Arquivo CSV
+* Abrir um _DataFrame_ com Pandas 
+* Visualizar alguns dados 
 
 Material de apoio: 
 * [Vídeos e Form: Introdução ao Aprendizado de Máquina](https://docs.google.com/forms/d/e/1FAIpQLScN2CzUWUSDjj4hCN-Xd8yDJQ75ks00c6eNqE6dFDg-mSnYRw/viewform?usp=sf_link)   
