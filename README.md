@@ -1,5 +1,6 @@
 # Semestres
 
+* [2024.2](https://github.com/ect-info/ml/blob/master/2024_2.md)
 * [2023.1](https://github.com/ect-info/ml/blob/master/2023_1.md)
 * [2020.2](https://github.com/ect-info/ml/blob/master/2020_2.md)
 * [2020.1](https://github.com/ect-info/ml/blob/master/2020_1.md)
