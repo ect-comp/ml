@@ -1,4 +1,5 @@
 # Introdução ao Aprendizado de Máquina 
+* [Apresentação e Planejamento](https://docs.google.com/presentation/d/1dqH0Jwx3zzp5YQnQVOHnU7QthYB5SPcimitccRj3niA/edit?usp=sharing) 
 * [Slides: Conceitos](https://docs.google.com/presentation/d/1p0ZDtjHuog-ENMHVbMX6LiabMXlTjYIV8t1DA2iBqIY/edit?usp=sharing)
 
 Prátrica 1
