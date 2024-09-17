@@ -7,13 +7,24 @@
 * Base de dados:
   * [Flor de íris](https://raw.githubusercontent.com/ect-info/ml/master/dados/Iris.csv)  
 
+Prática 
+* Treinar uma rede MLP para a [base de dados de diabetes](https://raw.githubusercontent.com/ect-info/ml/master/dados/diabetes.csv) 
+* Mais dados https://www.kaggle.com/datasets 
+
 Material de apoio: 
 * [Vídeos e Form: MLP parte 1](https://docs.google.com/forms/d/e/1FAIpQLSc_kQ1w4tnsrRjPsS56jOKZ7Bb1ZwN0bOAEwVRW0pKBWtyZkQ/viewform?usp=sf_link)   
 * [Vídeos e Form: MLP Parte 2](https://docs.google.com/forms/d/e/1FAIpQLSdFS64t1TlAq9mYtgx6JAi_-XoplMcY0Hj2xc1dub8riXWFTA/viewform?usp=sf_link)   
 * [Vídeo: Construindo e treinando uma rede MLP simples com keras e tensorflow](https://youtu.be/qyMO5UHLgs4) 
 
 Material complementar: 
-* [Vídeo: RNA - Construindo um Perceptron](https://youtu.be/uTi0O3tjdSM)
+* Vídeos:
+  * [RNA - Construindo um Perceptron](https://youtu.be/uTi0O3tjdSM)
+  * [Classificação dados com aprendizado de máquina](https://youtu.be/_p8Mbe75ZLk) 
+  * [Exemplo comparando a resposta de um modelo linear e outro não-linear](https://youtu.be/YFkVERllgAQ)
+  
 * Códigos:
   * [Exemplo de perceptron](https://colab.research.google.com/drive/1jbFCvifaAou19mlu2pI3Rso8DoMow_zl?usp=sharing)
   * [Exemplo MLP - Compra de um produto](https://colab.research.google.com/drive/1wR1xoQGDrgDUysDqWkhVdvNj-qluo2pk?usp=sharing)
+ 
+
+ 
