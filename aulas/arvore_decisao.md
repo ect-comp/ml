@@ -6,5 +6,9 @@
  
 Material Complementar:
 * Problema, predição de compra de um produto:
-  * [Vídeo](https://youtu.be/NWqdl3vw5YE)
-  * [Código](https://colab.research.google.com/drive/1YVy68Eo9Mf5r5qijp7orxFxjUNTsc6Q3?usp=sharing) 
+  * [Vídeo: trinando uma árvore de decisão](https://youtu.be/NWqdl3vw5YE)
+  * [Código](https://colab.research.google.com/drive/1YVy68Eo9Mf5r5qijp7orxFxjUNTsc6Q3?usp=sharing)
+  
+
+Atividade 
+* Treinar uma árvore de decisão para classificar as espécies da flor de iris, [acesse a base de dados aqui.](https://raw.githubusercontent.com/ect-info/ml/master/dados/Iris.csv)  
