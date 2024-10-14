@@ -21,11 +21,12 @@ Material complementar:
   * [Regressão com a população brasileira](https://colab.research.google.com/drive/1dCF8pGdv6N4-C09oP7cJbuSYvTK5zhKj?usp=sharing)
   * [Realizando uma estimativa de sálario a partir dos anos de experiência](https://colab.research.google.com/drive/1cnvCdgxz0eHWzSSjKrMPD1LLj5VE21rv?usp=sharing) 
   * [Regressão linear múltipla - prever o lucro de uma startup](https://colab.research.google.com/drive/13ucrTNkmJIH-XxXQiMS5q6ZTxBC1j6R0?usp=sharing)
+* [Regeressão linear no Khanacademy](https://pt.khanacademy.org/math/statistics-probability/advanced-regression-inference-transforming)
 
 Atividade:
 * Criar uma regressão linear para estimar a velocidade de rotação do eixo de um motor a partir do sinal de controle PWM. A base de dados possui duas colunas PWM e velocidade em rotações por minutos, [acesse aqui a base de dados](https://raw.githubusercontent.com/ect-comp/ml/refs/heads/master/dados/PWMxVelocidade.csv)
  
 Desafios: 
-* [Rio/Brasil - Modelo Preditivo Precos Imoveis](https://www.kaggle.com/code/rbarbera/rio-brasil-modelo-preditivo-precos-imoveis)
+* [Brasil - Rio de janeiro Airbnb open data](https://www.kaggle.com/datasets/allanbruno/airbnb-rio-de-janeiro?select=abril2018.csv)
 * [Boston - Previsão de preço de casas](https://colab.research.google.com/drive/1cY0xY7G8hh6OLBndI7_M5i48ZBqdSBA7?usp=sharing)
 
