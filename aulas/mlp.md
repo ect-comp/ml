@@ -7,8 +7,8 @@
 * Base de dados:
   * [Flor de íris](https://raw.githubusercontent.com/ect-info/ml/master/dados/Iris.csv)  
 
-Prática 
-* Treinar uma rede MLP para a [base de dados de diabetes](https://raw.githubusercontent.com/ect-info/ml/master/dados/diabetes.csv) 
+Exercício de demonstração: 
+* [Exemplo MLP - Compra de um produto](https://colab.research.google.com/drive/1wR1xoQGDrgDUysDqWkhVdvNj-qluo2pk?usp=sharing)
 * Mais dados https://www.kaggle.com/datasets 
 
 Material de apoio: 
@@ -24,7 +24,10 @@ Material complementar:
   
 * Códigos:
   * [Exemplo de perceptron](https://colab.research.google.com/drive/1jbFCvifaAou19mlu2pI3Rso8DoMow_zl?usp=sharing)
-  * [Exemplo MLP - Compra de um produto](https://colab.research.google.com/drive/1wR1xoQGDrgDUysDqWkhVdvNj-qluo2pk?usp=sharing)
  
+Exercício extra: 
+* Treinar uma rede MLP para a [base de dados de diabetes](https://raw.githubusercontent.com/ect-info/ml/master/dados/diabetes.csv)
 
+Atividade avaliativa: 
+* Treinar uma rede MLP com a [base de dados para predição de doença cardíaca da UCI](https://raw.githubusercontent.com/ect-comp/ml/refs/heads/master/dados/heart_disease_uci.csv). Nesta tarefa o estudante está livre para escolher a arquitetura da rede MLP, mas a sugestão é escolher uma arquitetura mais simples, pois esta base de dados é muito pequena. Os atributos podem ser escolhido conforme o critério do estudante. 
  
