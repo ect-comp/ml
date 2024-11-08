@@ -10,5 +10,5 @@ Material Complementar:
   * [Código](https://colab.research.google.com/drive/1YVy68Eo9Mf5r5qijp7orxFxjUNTsc6Q3?usp=sharing)
   
 
-Atividade:
+Atividade avaliativa:
 * Treinar uma árvore de decisão para classificar as espécies da flor de iris, [acesse a base de dados aqui.](https://raw.githubusercontent.com/ect-info/ml/master/dados/Iris.csv)  
