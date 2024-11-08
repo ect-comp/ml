@@ -13,7 +13,8 @@ Material de Apoio:
 Material complementar: 
 * [Aula Prática: Reconhecimento de caracteres escritos a mão com Deep Learning](https://youtu.be/lXCz0tduSh8) 
 * [Código: Reconhecimento de caracteres escritos a mão com Deep Learning](https://colab.research.google.com/drive/18fPqtpy6AV5Uo-WlmyFe6Epj-7UlrXgg)
-* [Tratamento de atributos categóricos](https://analyticsindiamag.com/complete-guide-to-handling-categorical-data-using-scikit-learn/) 
+* [Tratamento de atributos categóricos](texto/atributos_categoricos.md)
+* [Simulação do funcionamento de uma rede MLP com Playground Tensorflow](https://playground.tensorflow.org/)
 
 Extras: 
 * [Neural Networks from 3Blue1Brown](https://www.3blue1brown.com/lessons/neural-networks)
