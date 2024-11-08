@@ -6,6 +6,9 @@
 Material de Apoio:
 * [Vídeos e Form: K-Means](https://docs.google.com/forms/d/e/1FAIpQLSfyv1LTd_h0bkniJdy5Zq4Y4oFkqTVQrRVY0MZo8PsvcUzhhQ/viewform?usp=sf_link)
 
+Exemplo de código com PCA
+* [Visualização de metricas do LoP em duas dimensões](https://colab.research.google.com/drive/15uTd1w8uIxpUgQYYGLmaIL33eum6Yjez?usp=sharing) 
+
 Material complementar
 * [Aula prática: introdução ao K-Means - Agrupamento](https://youtu.be/t_107z0RHF8)
 * [Exemplo de código: perfil de clientes de uma loja](https://colab.research.google.com/drive/15Q-gTih7v2f5pYc64xQa2ytzX2gisX0q?usp=sharing)
