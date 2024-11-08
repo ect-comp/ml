@@ -7,7 +7,8 @@ Material de Apoio
 * [Vídeos e Form](https://docs.google.com/forms/d/e/1FAIpQLSev6WOXJcQj9cIDlHYPIfsbPvpkDVsl2rqI4g7J6flD-03LOg/viewform?usp=sf_link) 
 
 Extras: 
-* [Vídeo: The Convolutional Neural Network (Animated Introduction)](https://www.youtube.com/watch?v=H1ZC9COwtMs) 
+* [Vídeo: The Convolutional Neural Network (Animated Introduction)](https://www.youtube.com/watch?v=H1ZC9COwtMs)
+* [Treinando um modelo de "Machine Learning" na web com a ferramenta "Teachable Machine" do Google](https://www.youtube.com/watch?v=Qkop0rB-v1A)
 
 Sugestão de exercício: 
 * Treinar uma Rede CNN para a base de dados "Fashion MNIST" 
