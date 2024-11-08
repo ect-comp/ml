@@ -12,7 +12,8 @@ Material de Apoio:
   
 Material complementar: 
 * [Aula Prática: Reconhecimento de caracteres escritos a mão com Deep Learning](https://youtu.be/lXCz0tduSh8) 
-* [Código: Reconhecimento de caracteres escritos a mão com Deep Learning](https://colab.research.google.com/drive/18fPqtpy6AV5Uo-WlmyFe6Epj-7UlrXgg) 
+* [Código: Reconhecimento de caracteres escritos a mão com Deep Learning](https://colab.research.google.com/drive/18fPqtpy6AV5Uo-WlmyFe6Epj-7UlrXgg)
+* [Tratamento de atributos categóricos](https://analyticsindiamag.com/complete-guide-to-handling-categorical-data-using-scikit-learn/) 
 
 Extras: 
 * [Neural Networks from 3Blue1Brown](https://www.3blue1brown.com/lessons/neural-networks)
@@ -21,3 +22,12 @@ Extras:
 * [What is backpropagation really doing?](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
 * [Backpropagation calculus](https://www.youtube.com/watch?v=tIeHLnjs5U8)
 * [Book: Neural Networks and Deep learning](http://neuralnetworksanddeeplearning.com/index.html)
+
+Exercícios: 
+* Escolha uma base de dados no [kaggle](https://www.kaggle.com/) e treinar uma rede MLP, pode ser uma arquitetura mais simples, para classificação.
+* Sugestões de base de dados: 
+  * [Cancer Classification 🦠 (97% Accuracy)](https://www.kaggle.com/code/guhbrandao/cancer-classification-97-accuracy/input)  
+  * [Cancer Data](https://www.kaggle.com/datasets/erdemtaha/cancer-data)
+  * [Titanic dataset](https://www.kaggle.com/code/biswajee/titanic-dataset/input) 
+  * [Heart Attack Analysis](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset) 
+  * [Predict students' dropout and academic success](https://www.kaggle.com/datasets/thedevastator/higher-education-predictors-of-student-retention)  
