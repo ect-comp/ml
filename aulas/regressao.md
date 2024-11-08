@@ -23,7 +23,7 @@ Material complementar:
   * [Regressão linear múltipla - prever o lucro de uma startup](https://colab.research.google.com/drive/13ucrTNkmJIH-XxXQiMS5q6ZTxBC1j6R0?usp=sharing)
 * [Regeressão linear no Khanacademy](https://pt.khanacademy.org/math/statistics-probability/advanced-regression-inference-transforming)
 
-Atividade:
+Atividade avaliativa:
 * Criar uma regressão linear para estimar a velocidade de rotação do eixo de um motor a partir do sinal de controle PWM. A base de dados possui duas colunas PWM e velocidade em rotações por minutos, [acesse aqui a base de dados](https://raw.githubusercontent.com/ect-comp/ml/refs/heads/master/dados/PWMxVelocidade.csv)
  
 Desafios: 
