@@ -11,6 +11,9 @@ Prática
 Material de apoio: 
 * [Vídeos e Form: SVM](https://docs.google.com/forms/d/e/1FAIpQLSdS3YCo4v5NDzMuHzWKDyX-hb-nf6Pz2XLEM8RXknV6pmjssQ/viewform?usp=sf_link) 
 
+Atividade Avaliativa: 
+* Treinar o modelo SVM para classificação com a base de dados Titanic. O objetivo é realizar uma predição de quais pessoas sobreviveram ou não a este acidente. Link para a base de dados: https://www.kaggle.com/c/titanic/data 
+
 Material complementar:
 * [Vídeo: prática sobre classificação usando SVM](https://youtu.be/R3T4KnYg-tE)
 * Códigos:
