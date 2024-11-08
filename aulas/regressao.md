@@ -27,6 +27,7 @@ Atividade:
 * Criar uma regressão linear para estimar a velocidade de rotação do eixo de um motor a partir do sinal de controle PWM. A base de dados possui duas colunas PWM e velocidade em rotações por minutos, [acesse aqui a base de dados](https://raw.githubusercontent.com/ect-comp/ml/refs/heads/master/dados/PWMxVelocidade.csv)
  
 Desafios: 
+* [Base de dados de aluguel](https://colab.research.google.com/drive/1N2tsSSG18GhNsSxHKfE61WAGzZaf9Mww?usp=sharing)
 * [Brasil - Rio de janeiro Airbnb open data](https://www.kaggle.com/datasets/allanbruno/airbnb-rio-de-janeiro?select=abril2018.csv)
 * [Boston - Previsão de preço de casas](https://colab.research.google.com/drive/1cY0xY7G8hh6OLBndI7_M5i48ZBqdSBA7?usp=sharing)
 
