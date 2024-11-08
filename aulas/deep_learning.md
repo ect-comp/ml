@@ -4,6 +4,9 @@
   * [MLP - Exemplo sobre se um cliente deixa um banco](https://colab.research.google.com/drive/1NndIE2zvup_aWqSG06JR7i6_WxXQ-xMU?usp=sharing)
   * [Reconhecimento de caracteres escritos a mão](https://colab.research.google.com/drive/1gGi-n3vAJkjdEKMYLZkSCXoDhyRS1tSJ?usp=sharing)
 
+* Sugestão de Vídeo:
+  * [Treinando um modelo de "Machine Learning" na web com a ferramenta "Teachable Machine" do Google](https://www.youtube.com/watch?v=Qkop0rB-v1A)
+
 Material de Apoio:
 * [Vídeos e Form: _Deep Learning_](https://docs.google.com/forms/d/e/1FAIpQLSerRGTZZPjgz7yv1zWqZQfFVM6WkTyqkB22R7w3IRnvcRNE5A/viewform?usp=sf_link)
   
