@@ -7,7 +7,9 @@
 * Colocar o link para o vídeo da apresentação do trabalho (para quem não for apresentar presencialmente). 
 
 ### Informações Gerais 
-* Descrever o problema.  
+* Descrever o problema.
+* Descrever brevemente os algoritmos usado.
+* Descrever os objetivos.   
 * Descrever a base de dados.  
 
 ## Metodologia 
