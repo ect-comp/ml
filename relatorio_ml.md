@@ -4,7 +4,7 @@
 
 ### Identificação 
 * Apresentar os membros da equipe (nome e mátricula). 
-* Colocar o link para o vídeo da apresentação do trabalho. 
+* Colocar o link para o vídeo da apresentação do trabalho (para quem não for apresentar presencialmente). 
 
 ### Informações Gerais 
 * Descrever o problema.  
