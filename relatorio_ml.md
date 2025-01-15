@@ -8,12 +8,12 @@
 
 ### Informações Gerais 
 * Descrever o problema.
-* Descrever brevemente os algoritmos usado.
+* Descrever brevemente os algoritmos usados.
 * Descrever os objetivos.   
 * Descrever a base de dados.  
 
 ## Metodologia 
-* Explicar quais técnicas de _machine learning_ (ML) que você está trabalhando. 
+* Explicar em detalhes quais técnicas de _machine learning_ (ML) foram aplicadas neste trabalhando. 
 * Explicar as etapas do treinamento e teste. 
 * Caso tenha selecionado atributos, explicar a motivação para a seleção de tais atributos. 
 
