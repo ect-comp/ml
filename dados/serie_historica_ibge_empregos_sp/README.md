@@ -7,3 +7,5 @@ Descrição de cada linha da base de dados:
 * 4 a 7 anos
 * 8 a 10 anos
 * 11 anos ou mais
+
+Fonte: https://seriesestatisticas.ibge.gov.br/series.aspx?no=1&op=2&vcodigo=PE54&t=pessoas-economicamente-ativas-ocupadas-anos-estudo 
