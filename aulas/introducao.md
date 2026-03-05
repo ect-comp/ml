@@ -6,7 +6,7 @@ Prátrica 1
 * Abrir o site https://teachablemachine.withgoogle.com/. Criar grupos. Treinar um modelo para reconhecer pessoas pelo rosto. 
 
 Prática 2
-* Conhecer um Arquivo CSV
+* Conhecer um Arquivo CSV (https://github.com/ect-comp/ml/tree/master/dados) 
 * Abrir um _DataFrame_ com Pandas 
 * Visualizar alguns dados 
 
