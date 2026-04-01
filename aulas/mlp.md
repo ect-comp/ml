@@ -29,5 +29,5 @@ Exercício extra:
 * Treinar uma rede MLP para a [base de dados de diabetes](https://raw.githubusercontent.com/ect-info/ml/master/dados/diabetes.csv)
 
 Atividade avaliativa: 
-* Treinar uma rede MLP com a [base de dados para predição de doença cardíaca da UCI](https://raw.githubusercontent.com/ect-comp/ml/refs/heads/master/dados/heart_disease_uci.csv). Nesta tarefa o estudante está livre para escolher a arquitetura da rede MLP, mas a sugestão é escolher uma arquitetura mais simples, pois esta base de dados é muito pequena. Os atributos podem ser escolhido conforme o critério do estudante. 
+* Treinar uma rede MLP com a [base de dados para predição de doença cardíaca da UCI](https://raw.githubusercontent.com/ect-comp/ml/refs/heads/master/dados/heart_disease_uci.csv). Nesta tarefa, o estudante está livre para escolher a arquitetura da rede MLP, mas a sugestão é escolher uma arquitetura mais simples, pois esta base de dados é muito pequena. Os atributos podem ser escolhidos conforme o critério do estudante. 
  
